@@ -3,24 +3,10 @@ import matplotlib.pyplot as plt
 from math import exp, pi, sqrt
 
 
-def crearMatrizNone(nFilas, nColumnas=None):
-    if nColumnas is None:
-        nColumnas = nFilas
-    matriz = [[None] * nColumnas for _ in range(nFilas)]
-    return matriz
-
-
-def crearMatrizNula(nFilas, nColumnas=None):
+def crear_matriz_normal(nFilas, nColumnas=None):
     if nColumnas is None:
         nColumnas = nFilas
     matriz = [[0] * nColumnas for _ in range(nFilas)]
-    return matriz
-
-
-def crearMatrizNormal(nFilas, nColumnas=None):
-    if nColumnas is None:
-        nColumnas = nFilas
-    matriz = crearMatrizNula(nFilas, nColumnas)
 
     # Parámetros de la normal
     mu_x, mu_y = 0, 0

@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def plotMatriz(matriz):
+def plot_matriz(matriz):
     Z = np.array(matriz)  # conversión para graficar
     n, m = Z.shape
     x_vals = np.linspace(-3, 3, m)
