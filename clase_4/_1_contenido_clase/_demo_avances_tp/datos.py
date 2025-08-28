@@ -1,7 +1,12 @@
-# Dados 
+# *********************************************************************
+# HACER UNA COPIA DE ESTE ARCHIVO A LA CARPETA
+# CODIGO_ESTUDIANTES
+# NO SOBRESCRIBIR ESTE ARCHIVO PARA EVITAR CONFLICTOS DE SINCRONIZACION
+# *********************************************************************
 
-import random
-from functools import reduce
+# ---------------------------------------------------------------------
+#  DEMO: Datos
+# ---------------------------------------------------------------------
 
 # Lista de datos (matriz de alumnos)
 estudiantes = [
@@ -33,23 +38,3 @@ est_cursos = [
     [31051, 3],
     [31051, 4],
 ]
-
-def simular_asistencias(asistencias, n_clases):
-    for asistencia in asistencias:
-        asistencia.append([True if random.randint(0,1) == 1 else False for _ in range(n_clases)])
-
-def computar_asistencias(est_cursos, cursos, estudiantes):
-    computo_asistencias = [] 
-    for item in est_cursos:
-        computo1 = []
-        computo1.extend(item[:2])
-        computo1.append(reduce(lambda a, b: a+b , item[-1]))
-        computo_asistencias.append(computo1)
-    return computo_asistencias
-
-simular_asistencias(est_cursos, 16)
-asistencias = computar_asistencias(est_cursos, cursos, estudiantes)
-
-
-print(asistencias)
-
