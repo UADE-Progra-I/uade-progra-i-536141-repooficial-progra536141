@@ -52,7 +52,7 @@ while True:
     lista_personalizada.append(item)
     continua = input("Presion z para salir o cualquier tecla para continuar: ").strip().lower()
     if continua == "z":
-        break
+        break # cuando ingresa "z" sale
 print("lista resultante: ", lista_personalizada)
 
 
@@ -76,5 +76,5 @@ input("\nPresione para continuar...")
 
 # Enumerate retorna una tupla formada por indice + item
 print("\nLista iterada con enumerate:")
-for indice, item in enumerate(dias):
+for indice, item in enumerate(dias): #recine la tupla 
     print(f"Indice: {indice}: Item: {item}")

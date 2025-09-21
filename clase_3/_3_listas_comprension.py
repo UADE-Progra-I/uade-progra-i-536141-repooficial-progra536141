@@ -4,7 +4,7 @@ import math
 
 # Ejemplo 1: Crear una Lista con Listas por Comprensión
 numeros = [0, 1, 2, 3, 4, 5]  # arreglo o iterable numeros
-cuadrados = [num**2 for num in numeros]
+cuadrados = [num**2 for num in numeros] #se lee al reves: por cada num en numeros, calcula num al cuadrado
 print("Cuadrados:", cuadrados)  # [0, 1, 4, 9, 16, 25]
 
 # Ejemplo 2: Filtrar Elementos
