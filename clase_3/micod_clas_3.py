@@ -4,3 +4,4 @@ import math
 lista = [1, -2, 5, 0, 3, 4]
 listaPorComp = [num**2 if num % 2 == 0 else num for num in lista]
 print("Cuadrados de pares, impares sin cambios:", listaPorComp)  # [1, 4, 5, 0, 3, 16]
+print("puto")
