@@ -16,7 +16,7 @@ print(matriz_estatica[0])  # imprimimos la primera fila
 
 # Mostramos el valor de la primera fila y primera columna
 print("\nMostramos el valor de la primera fila y primera columna")
-print(matriz_estatica[1][0])  # imprimimos el primer elemento de la segunda fila
+print(matriz_estatica[0][0])  # imprimimos el primer elemento de la segunda fila
 
 
 # Generamos una matriz nula de 3 filas por 3 columnas
