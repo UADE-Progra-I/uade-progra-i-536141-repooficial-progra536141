@@ -1,16 +1,12 @@
 # ***********************************************************
-# UNIVERSIDAD ARGENTINA DE LA EMPRESA
-# Facultad de Ingeniería y Ciencias Exactas
-
-# Asignatura: PROGRAMACION I
-# Curso: 536141
-# Fecha: jueves 25 de septiembre de 2025
-
-# Docente: Juan Pablo Rigotti
-# Estudiante:  **** COMPLETAR con Nombre y Apellido ****
-
-# Duración: 85 minutos
+# ACTIVIDAD PRUEBAS UNITARIAS
 # ***********************************************************
+
+"""
+Se propone usar las consignas del examen, para desarrollar las funciones de cada ejercicio
+y su correspondiente función de validación / prueba unitaria usando Pytest
+
+"""
 
 # ------------------------------------------------------------------------------------
 # Ejercicio 1 (0.5 puntos)
