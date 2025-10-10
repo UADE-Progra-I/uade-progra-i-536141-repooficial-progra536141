@@ -38,7 +38,7 @@ Arma la función y su test asociado
 """
 
 def ejercicio_4():
-    return True
+    return [x * x for x in range(1, 6)]
 
 
 """
@@ -54,7 +54,8 @@ Arma la función y su test asociado
 
 def ejercicio_5():
     numeros = [3, -1, 0, 7, -5, 10, -2]
-    return numeros
+    positivos = list(filter(lambda x:x>0 , numeros))
+    return positivos
 
 
 """
@@ -73,6 +74,10 @@ Arma la función y su test asociado
 
 def ejercicio_6():
     numeros = [10, 3, 7, 2, 15]
+    numeros.append(20)
+    numeros.insert(2,5)
+    numeros.remove(7)
+    numeros.sort()
     return numeros
 
 
@@ -111,8 +116,10 @@ que retorna una tupla con:
 Generá también su test asociado
 """
 
-def ejercicio_8(letras, cadena):
-    return letras, cadena
+def ejercicio_8():
+    letras = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
+    cadena = "Universidad"
+    return letras[:3], cadena[3:8]
 
 
 """
@@ -143,7 +150,9 @@ patente = "AB629CZ"
 import re
 
 def ejercicio_9(patente):
-    return True
+    pattern = r'^[A-Z]{2}\d{3}[A-Z]{2}$'
+    check = re.match(pattern, patente)
+    return bool(check)
 
 
 """
