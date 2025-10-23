@@ -8,7 +8,8 @@ def input_estudiante():
     nombre = read_console.input_nombre_estudiante()
     apellido = read_console.input_apellido_estudiante()
     edad = read_console.input_edad_estudiante()
-    return [nombre, apellido, edad]
+    return {"nombre": nombre, "apellido": apellido, "edad": edad}
+
 
 def input_id_estudiante():
     """
@@ -16,6 +17,7 @@ def input_id_estudiante():
     """
     id = read_console.input_id_estudiante()
     return id
+
 
 def input_confirma_eliminar_estudiante():
     """

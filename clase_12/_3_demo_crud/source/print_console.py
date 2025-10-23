@@ -13,11 +13,11 @@ Elegir una opción:
 
 
 def print_estudiante(e):
-    print(f"Id: {e[0]} - Nombre: {e[1]} - Apellido: {e[2]} - Edad: {e[3]}")
+    print(f"Id: {e['id']} - Nombre: {e['nombre']} - Apellido: {e['apellido']} - Edad: {e['edad']}")
 
 def print_estudiantes(estudiantes):
     for e in estudiantes:
-        print(f"Id: {e[0]} - Nombre: {e[1]} - Apellido: {e[2]} - Edad: {e[3]}")
+        print(f"Id: {e['id']} - Nombre: {e['nombre']} - Apellido: {e['apellido']} - Edad: {e['edad']}")
 
 def print_success(message):
     print(message)
