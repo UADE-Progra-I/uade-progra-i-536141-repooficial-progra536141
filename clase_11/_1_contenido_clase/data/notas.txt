@@ -1,2 +1,4 @@
-Alumno: Ana
+Nombre: Ana
+Apellido: Kunst
 Nota: 8
+Edad: 22
