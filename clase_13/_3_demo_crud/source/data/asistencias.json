@@ -1,0 +1,402 @@
+[
+    {
+        "id_asistencia": 1,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "A",
+        "fecha": "22/10/2025"
+    },
+    {
+        "id_asistencia": 2,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "M",
+        "fecha": "24/10/2025"
+    },
+    {
+        "id_asistencia": 3,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "M",
+        "fecha": "18/10/2025"
+    },
+    {
+        "id_asistencia": 4,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "M",
+        "fecha": "23/10/2025"
+    },
+    {
+        "id_asistencia": 5,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "A",
+        "fecha": "04/10/2025"
+    },
+    {
+        "id_asistencia": 6,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "M",
+        "fecha": "10/10/2025"
+    },
+    {
+        "id_asistencia": 7,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "P",
+        "fecha": "21/10/2025"
+    },
+    {
+        "id_asistencia": 8,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "P",
+        "fecha": "15/10/2025"
+    },
+    {
+        "id_asistencia": 9,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "A",
+        "fecha": "11/10/2025"
+    },
+    {
+        "id_asistencia": 10,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "M",
+        "fecha": "23/10/2025"
+    },
+    {
+        "id_asistencia": 11,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "M",
+        "fecha": "18/10/2025"
+    },
+    {
+        "id_asistencia": 12,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "A",
+        "fecha": "17/10/2025"
+    },
+    {
+        "id_asistencia": 13,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "A",
+        "fecha": "09/10/2025"
+    },
+    {
+        "id_asistencia": 14,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "A",
+        "fecha": "17/10/2025"
+    },
+    {
+        "id_asistencia": 15,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "P",
+        "fecha": "05/10/2025"
+    },
+    {
+        "id_asistencia": 16,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "P",
+        "fecha": "10/10/2025"
+    },
+    {
+        "id_asistencia": 17,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "P",
+        "fecha": "16/10/2025"
+    },
+    {
+        "id_asistencia": 18,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "M",
+        "fecha": "18/10/2025"
+    },
+    {
+        "id_asistencia": 19,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "A",
+        "fecha": "02/10/2025"
+    },
+    {
+        "id_asistencia": 20,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "A",
+        "fecha": "08/10/2025"
+    },
+    {
+        "id_asistencia": 21,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "A",
+        "fecha": "20/10/2025"
+    },
+    {
+        "id_asistencia": 22,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "M",
+        "fecha": "04/10/2025"
+    },
+    {
+        "id_asistencia": 23,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "M",
+        "fecha": "06/10/2025"
+    },
+    {
+        "id_asistencia": 24,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "P",
+        "fecha": "09/10/2025"
+    },
+    {
+        "id_asistencia": 25,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "A",
+        "fecha": "05/10/2025"
+    },
+    {
+        "id_asistencia": 26,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "P",
+        "fecha": "03/10/2025"
+    },
+    {
+        "id_asistencia": 27,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "P",
+        "fecha": "25/10/2025"
+    },
+    {
+        "id_asistencia": 28,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "A",
+        "fecha": "17/10/2025"
+    },
+    {
+        "id_asistencia": 29,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "A",
+        "fecha": "16/10/2025"
+    },
+    {
+        "id_asistencia": 30,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "M",
+        "fecha": "06/10/2025"
+    },
+    {
+        "id_asistencia": 31,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "M",
+        "fecha": "13/10/2025"
+    },
+    {
+        "id_asistencia": 32,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "P",
+        "fecha": "14/10/2025"
+    },
+    {
+        "id_asistencia": 33,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "P",
+        "fecha": "20/10/2025"
+    },
+    {
+        "id_asistencia": 34,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "M",
+        "fecha": "05/10/2025"
+    },
+    {
+        "id_asistencia": 35,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "M",
+        "fecha": "23/10/2025"
+    },
+    {
+        "id_asistencia": 36,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "P",
+        "fecha": "07/10/2025"
+    },
+    {
+        "id_asistencia": 37,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "M",
+        "fecha": "12/10/2025"
+    },
+    {
+        "id_asistencia": 38,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "P",
+        "fecha": "09/10/2025"
+    },
+    {
+        "id_asistencia": 39,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "P",
+        "fecha": "09/10/2025"
+    },
+    {
+        "id_asistencia": 40,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "A",
+        "fecha": "13/10/2025"
+    },
+    {
+        "id_asistencia": 41,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "A",
+        "fecha": "01/10/2025"
+    },
+    {
+        "id_asistencia": 42,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "A",
+        "fecha": "14/10/2025"
+    },
+    {
+        "id_asistencia": 43,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "A",
+        "fecha": "15/10/2025"
+    },
+    {
+        "id_asistencia": 44,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Álgebra I",
+        "asignatura_codigo": "2799",
+        "estado": "P",
+        "fecha": "21/10/2025"
+    },
+    {
+        "id_asistencia": 45,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "M",
+        "fecha": "18/10/2025"
+    },
+    {
+        "id_asistencia": 46,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "P",
+        "fecha": "20/10/2025"
+    },
+    {
+        "id_asistencia": 47,
+        "id_estudiante": "1",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "P",
+        "fecha": "17/10/2025"
+    },
+    {
+        "id_asistencia": 48,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "M",
+        "fecha": "19/10/2025"
+    },
+    {
+        "id_asistencia": 49,
+        "id_estudiante": "2",
+        "asignatura_nombre": "Progra I",
+        "asignatura_codigo": "5421",
+        "estado": "M",
+        "fecha": "10/10/2025"
+    },
+    {
+        "id_asistencia": 50,
+        "id_estudiante": "3",
+        "asignatura_nombre": "Estadística",
+        "asignatura_codigo": "3589",
+        "estado": "M",
+        "fecha": "11/10/2025"
+    }
+]
