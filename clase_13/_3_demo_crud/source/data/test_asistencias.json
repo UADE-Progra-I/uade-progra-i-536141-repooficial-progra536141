@@ -1,0 +1,10 @@
+[
+   {
+      "id_asistencia": 1,
+      "id_estudiante": 1,
+      "asignatura_nombre": "Progra I",
+      "asignatura_codigo": 5421,
+      "estado": "P",
+      "fecha": "25/10/2025"
+   }
+]

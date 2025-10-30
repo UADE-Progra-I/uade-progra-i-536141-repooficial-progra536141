@@ -1,0 +1,20 @@
+[
+   {
+      "nombre": "John",
+      "apellido": "Doe",
+      "legajo": 13254,
+      "id_estudiante": 1
+   },
+   {
+      "nombre": "Chris",
+      "apellido": "Hartman",
+      "legajo": "125584",
+      "id_estudiante": 2
+   },
+   {
+      "nombre": "Viktor",
+      "apellido": "Halley",
+      "legajo": "32114",
+      "id_estudiante": 3
+   }
+]
