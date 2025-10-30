@@ -9,20 +9,15 @@ def main():
         opcion = read_console.get_menu_opcion()
         match opcion:
             case "1":
+                # 1. Gestionar Estudiantes
                 menu_handlers.handle_opcion_1()
             case "2":
-                print("buscar estudiante por legajo")
+                # 2. Gestionar Asistencias
+                menu_handlers.handle_opcion_2()
             case "3":
+                # 3. Generar Reportes
                 menu_handlers.handle_opcion_3()
             case "4":
-                print("editar estudiante")
-            case "5":
-                menu_handlers.handle_opcion_5()
-            case "6":
-                menu_handlers.handle_opcion_6()
-            case "7":
-                menu_handlers.handle_opcion_7()
-            case "8":
                 break
 
     print(f"Gracias por usar nuestra APP")
