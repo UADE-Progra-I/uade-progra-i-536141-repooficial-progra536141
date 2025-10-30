@@ -50,12 +50,15 @@ def handle_opcion_3():
         opcion = read_console.get_menu_opcion()
         match opcion:
             case "1":
-                # 1. Reporte 1: Estudiantes Join Asistencias
+                # Reporte 1: Estudiantes Join Asistencias
                 menu_3_handlers.handle_menu_3_opcion_1()
             case "2":
-                # 1. Reporte 1: Estudiantes Join Asistencias
+                # Reporte 2: Asistencias por asignatura
                 menu_3_handlers.handle_menu_3_opcion_2()
             case "3":
+                # Reporte 3: Asistencias por estudiantes
+                menu_3_handlers.handle_menu_3_opcion_3()
+            case "4":
                 # Volver
                 break
 

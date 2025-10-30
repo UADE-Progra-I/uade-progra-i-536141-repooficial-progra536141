@@ -32,7 +32,8 @@ def print_menu_3():
     print("""
 1. Reporte 1: Estudiantes Join Asistencias
 2. Reporte 2: Asistencias por asignaturas
-3. Volver
+3. Reporte 3: Asistencias por estudiantes
+4. Volver
 """)
 
 
