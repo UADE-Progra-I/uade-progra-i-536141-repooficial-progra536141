@@ -23,7 +23,7 @@ def handle_menu_3_opcion_1():
     df_a["id_estudiante"] = df_a["id_estudiante"].astype(str)
 
     # Hacer el join entre DataFrames
-    df_ea = pd.merge(df_e, df_a, how="inner", on="id_estudiante").sort_values(by="id_asistencia")
+    df_ea = pd.merge(df_e, df_a, on="id_estudiante", how="left",).sort_values(by="id_asistencia")
     print(df_ea)
 
 
@@ -38,13 +38,22 @@ def handle_menu_3_opcion_2():
     # Convertir tipo diccionario a DataFrame
     df_a = pd.DataFrame(asistencias)
 
-    df_agg = (
-        df_a.groupby(["asignatura_nombre", "asignatura_codigo", "estado"])
-        .size()
-        .unstack(fill_value=0)
-        .reset_index()
-    )
+    # df_agg = (
+    #     df_a.groupby(["asignatura_nombre", "asignatura_codigo", "estado"])
+    #     .size()
+    #     .unstack(fill_value=0)
+    #     .reset_index()
+    # )
 
+    df_fil = df_a.copy()
+    df_fil["estado_p"] = df_fil[df_fil['estado'].str.contains('p', case=False)]["estado"]
+    df_fil["estado_a"] = df_fil[df_fil['estado'].str.contains('a', case=False)]["estado"]
+    df_fil["estado_m"] = df_fil[df_fil['estado'].str.contains('m', case=False)]["estado"]
+    df_agg = df_fil.groupby(["asignatura_nombre", "asignatura_codigo"]).agg(
+        Presentes = ('estado_p', 'count'),
+        Ausentes = ('estado_a', 'count'),
+        Media_falta = ('estado_m', 'count'),
+    )
     print(df_agg)
 
 # Reporte 3: Asistencias por estudiantes
@@ -69,7 +78,7 @@ def handle_menu_3_opcion_3():
 
     # Filtramos los presentes
     df_fil = df_ea[df_ea['estado'].str.contains('p', case=False)]
-    df_agg = df_ea.groupby(["nombre", "apellido"]).agg(
+    df_agg = df_fil.groupby(["nombre", "apellido"]).agg(
         Asistencias = ('estado', 'count')
     )
        
