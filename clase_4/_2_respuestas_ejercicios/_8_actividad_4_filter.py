@@ -31,7 +31,9 @@ emails_validos = list(filter(
     emails_registrados
 ))
 
+print(f"Email validos: {emails_validos}")
+
 # Normalizamos (trim + minúsculas) con map encadenado
 emails_normalizados = list(map(lambda email: email.strip().lower(), emails_validos))
 
-print(f"Emails normalizados: ", emails_normalizados)  # ['ana@uni.edu', 'luis@gmail.com']
+#print(f"Emails normalizados: ", emails_normalizados)  # ['ana@uni.edu', 'luis@gmail.com']
