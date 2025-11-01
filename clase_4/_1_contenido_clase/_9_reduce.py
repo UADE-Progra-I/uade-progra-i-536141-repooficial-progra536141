@@ -1,7 +1,7 @@
 # Dada una lista de calificaciones, 
 # se desea conocer la nota promedio del curso.
 
-# Primero devemos importar la función del módulo functools
+# Primero debemos importar la función del módulo functools
 from functools import reduce
 
 calificaciones = [8, 7, 6.5, 8.5, 5, 9, 9.75] 
