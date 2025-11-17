@@ -18,8 +18,17 @@ estudiantes_datos = [
     ["Leandro", "Bolmaro"],
     ["Valentina", "Raposo"],
 ]
+#for estudiante in estudiantes_datos:
+#    print(estudiante[1])  # accedo al apellido, me quedo con el apellido pero si le dejo "print(estudiante[1][0])"
+#
+#for estudiante in estudiantes_datos:
+#   inicial_buscar = estudiante[1][0]  # accedo al apellido, me quedo con la inicial del apellido
+#   if inicial_buscar.lower()=="r"
+#   
+#   if(estudiante[1][0]) == "R":
+#   print("encontre a raposo")
 
-# 1
+
 # Agregar emails ficticios usando append()
 # Ejemplo: para Thiago Almada → [1, "Thiago", "Almada", "talmada@mail.com"].
 

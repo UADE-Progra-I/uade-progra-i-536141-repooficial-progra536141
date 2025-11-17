@@ -34,7 +34,7 @@ lst = [1, 2, 3]
 index_of_element = lst.index(2)  # busca el índice del "2"
 print(f"index(): {index_of_element}")  # Resultado: 1
 
-# count() → cuenta cuántas veces aparece un valor en la lista
+# count() → cuenta cuántas veces aparece un valor en la lista #puede buscar por ejemplo un @ en un correo
 lst = [1, 2, 2, 3]
 count_of_element = lst.count(2)  # cuenta los "2"
 print(f"count(): {count_of_element}")  # Resultado: 2
@@ -54,7 +54,8 @@ print(f"reverse(): {lst}")  # Resultado: [3, 2, 1]
 # Parte 2: Funciones
 # ***********************************************************
 
-# len()
+# len() #longitud de la lista, para buscar minimo o máximo
+# Devuelve la cantidad de elementos en la lista
 print(f"len([1, 2, 3]): {len([1, 2, 3])}")  # Resultado: 3
 
 # sum()
